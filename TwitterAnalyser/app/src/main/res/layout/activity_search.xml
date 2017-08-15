@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="msrit.microsoftstudent.com.twitteranalyser.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/searchlol"/>
+
+
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:id="@+id/piechart">
+
+            </com.github.mikephil.charting.charts.PieChart>
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lol" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                android:id="@+id/textView"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emo">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Emotion"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ljdbnvsuibgvblbefvbegbvbibvf\nbfiduabuibuifb"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lan">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Language"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ljdbsdknjndsvjnm\njjnndsnbuibuifb"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="verbal"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="dc"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="verbal"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/social">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Socialness"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ljdbdjfjfdjdjbibvf\nbfiduabuibuifb"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Openness"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:layout_width="1dp"
+                            android:layout_height="wrap_content"
+                            android:text="Anger"
+                            android:layout_weight="1"/>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="redundant"
+                android:id="@+id/dev"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

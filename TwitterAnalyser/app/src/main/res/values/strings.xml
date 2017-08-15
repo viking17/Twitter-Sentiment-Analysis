@@ -1,0 +1,6 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">TwitterAnalyser</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">mBoy5ZJixm0snCejPPO6bTQhI</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">MQVfOpxUroc2LcE5ydKGSpxmsqxBH2jJ06TgYqrCmIoxtvO9I4</string>
+    <string name="title_activity_tone_chart">ToneChart</string>
+</resources>
